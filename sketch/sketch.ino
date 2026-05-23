@@ -6,7 +6,7 @@
 Arduino_LED_Matrix matrix;
 ModulinoKnob knob;
 
-uint8_t frame[8][13]; // Changed back to 13 to fix the diagonal pitch skew
+uint8_t frame[8][13];
 
 unsigned long last_second_millis = 0;
 int hours = 12;
@@ -166,7 +166,7 @@ void loop() {
     frame[row_offset + 3][6] = 1;
   }
   
-  // 5. Render frame (passing 13 to match the matrix expected pitch)
+  // 5. Render frame
   matrix.renderBitmap(frame, 8, 13);
   
   delay(10);
