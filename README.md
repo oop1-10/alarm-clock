@@ -5,7 +5,7 @@
 This project uses Arduino App lab to display the time on the LED matrix.  It makes use of the Modulino Knob to adjust the time on the click.  Future features include allowing you to set an alarm time.
 
 ## Demo
-<iframe src="https://drive.google.com/file/d/1bmdYBgl6QDPB8GlOEFlZqP392xLR7b_C/preview" width="640" height="480"></iframe>
+https://github.com/user-attachments/assets/204725c9-2a31-4664-a441-8fc6e0edd803
 
 ## Requirements
 
